@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon -->
     <link href="{{ asset('img/favicon.ico') }}" rel="icon">
 
@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @stack('styles')
 </head>
 
 <body>
@@ -42,32 +43,40 @@
     </div>
     <!-- Spinner End -->
 
+<!-- Navbar Start -->
+<div class="container-fluid sticky-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-md-5">
+            <a href="{{ url('/') }}" class="navbar-brand">
+                <h1 class="text-white" style="font-size: 17px;">Intelligence Integrated Limited</h1>
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="{{ url('/') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
+                    <a href="{{ url('shop') }}" class="nav-item nav-link {{ request()->is('shop') ? 'active' : '' }}">Shop</a>
+                    <a href="{{ url('contact') }}" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
 
-    <!-- Navbar Start -->
-    <div class="container-fluid sticky-top">
-        <div class="container ">
-            <nav class="navbar navbar-expand-lg navbar-dark p-md-5">
-                <a href="{{ url('/') }}" class="navbar-brand">
-                    <h1 class="text-white" style="font-size: 17px;">Intelligence Integrated Limited</h1>
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="{{ url('/') }}" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
-                        <a href="{{ url('shop') }}" class="nav-item nav-link {{ request()->is('shop') ? 'active' : '' }}">Shop</a>
-
-                        <a href="{{ url('contact') }}" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
-                    </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                    <!-- Cart Icon with Counter -->
+                    <a href="{{ url('cart') }}" class="nav-item nav-link position-relative">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count">
+                            {{ count(session('cart', [])) }}
+                        </span>
+                    </a>
                 </div>
-            </nav>
-        </div>
+                <button type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                    data-bs-target="#searchModal">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </nav>
     </div>
-    <!-- Navbar End -->
+</div>
+<!-- Navbar End -->
 
     @yield('app')
 
@@ -162,6 +171,7 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+    @stack('scripts')
 </body>
 
 </html>
