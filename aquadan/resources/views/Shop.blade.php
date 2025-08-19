@@ -11,61 +11,109 @@
             </ol>
         </div>
     </div>
-    <!-- Products Start -->
-    <div class="container-fluid product py-5">
-        <div class="container py-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-uppercase text-primary">Our Products</h4>
-                <h1 class="display-3 text-capitalize mb-3">We Deliver Best Quality Bottle Packs.</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="product-item">
-                        <img src="img/product-3.png" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="product-content bg-light text-center rounded-bottom p-4">
-                            <p>2L 1 Bottle</p>
-                            <a href="#" class="h4 d-inline-block mb-3">Mineral Water Bottle</a>
-                            <p class="fs-4 text-primary mb-3">$35.00</p>
-                            <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
-                                data-name="Mineral Water Bottle" data-price="35.00" data-image="img/product-3.png"
-                                data-description="2L 1 Bottle">
-                                Add to Cart
-                            </button>
+  <!-- Products Start -->
+<div class="container-fluid product py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-uppercase text-primary">Our Products</h4>
+            <h1 class="display-3 text-capitalize mb-3">Elevate Your Meditation Practice</h1>
+            <p class="mb-0">Discover our carefully curated collection of meditation essentials designed to enhance your practice and bring peace to your space.</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+
+
+            <!-- Product 2 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="product-item">
+                    <img src="{{ asset('img/shopping-eco-mat.webp') }}" class="img-fluid product-image rounded-top" alt="Eco-Friendly Yoga Mat">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>Eco-Friendly, Non-Slip</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Eco Yoga & Meditation Mat</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span class="ms-1">(96)</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="product-item">
-                        <img src="img/product-2.png" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="product-content bg-light text-center rounded-bottom p-4">
-                            <p>4L 2 Bottles</p>
-                            <a href="#" class="h4 d-inline-block mb-3">RO Water Bottle</a>
-                            <p class="fs-4 text-primary mb-3">$70.00</p>
-                            <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart" data-name="RO Water Bottle"
-                                data-price="70.00" data-image="img/product-2.png" data-description="4L 2 Bottles">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="product-item">
-                        <img src="img/product-1.png" class="img-fluid w-100 rounded-top" alt="Image">
-                        <div class="product-content bg-light text-center rounded-bottom p-4">
-                            <p>6L 3 Bottles</p>
-                            <a href="#" class="h4 d-inline-block mb-3">UV Water Bottle</a>
-                            <p class="fs-4 text-primary mb-3">$100.00</p>
-                            <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart" data-name="UV Water Bottle"
-                                data-price="100.00" data-image="img/product-1.png" data-description="6L 3 Bottles">
-                                Add to Cart
-                            </button>
-                        </div>
+                        <p class="fs-4 text-primary mb-3">$49.99</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Eco Yoga & Meditation Mat" data-price="49.99"
+                                data-image="{{ asset('img/shopping-eco-mat.webp') }}"
+                                data-description="Sustainable, non-slip yoga mat perfect for meditation or yoga practice.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
                     </div>
                 </div>
             </div>
+
+            <!-- Product 3 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="product-item">
+                    <img src="{{ asset('img/shopping-bowl.webp') }}" class="img-fluid product-image rounded-top" alt="Meditation Bell">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <span class="badge bg-info mb-2">New</span>
+                        <p>Handcrafted Bronze</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Tibetan Singing Bowl Set</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="ms-1">(204)</span>
+                            </div>
+                        </div>
+                        <p class="fs-4 text-primary mb-3">$39.99</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Tibetan Singing Bowl Set" data-price="39.99"
+                                data-image="{{ asset('img/shopping-bowl.webp') }}"
+                                data-description="Authentic Tibetan singing bowl set with mallet and cushion for meditation practice.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="product-item">
+                    <img src="{{ asset('img/shopping-incense-set.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>Natural Ingredients, Relaxing Scents</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Meditation Incense Set</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ms-1">(187)</span>
+                            </div>
+                        </div>
+                        <p class="fs-4 text-primary mb-3">$24.99</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Meditation Incense Set" data-price="24.99"
+                                data-image="{{ asset('img/shopping-incense-set.webp') }}"
+                                data-description="Set of natural incense sticks with various relaxing scents for meditation.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
-    <!-- Products End -->
+</div>
+<!-- Products End -->
+
     <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

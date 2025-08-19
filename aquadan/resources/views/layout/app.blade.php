@@ -9,7 +9,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <meta
-        content="Aquadan Solution LTD offers professional water treatment, purification, and delivery services for residential and commercial clients."
+        content="Aquadan Solution provides soothing guided meditation audio that helps you relax, reduce stress, and enhance your well-being.
+"
         name="description">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -111,7 +112,7 @@
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
             <div class="row g-5 mb-5 align-items-center">
-                <div class="col-lg-7">
+                {{-- <div class="col-lg-7">
                     <div class="position-relative mx-auto">
                         <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text"
                             placeholder="Your Email Address">
@@ -130,7 +131,7 @@
                         <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i
                                 class="fab fa-linkedin-in"></i></a>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <div class="row g-5">
                 <div class="col-md-8 ">
@@ -138,9 +139,10 @@
                         <div class="footer-item">
                             <h3 class="text-white mb-4"><i
                                     class="fas fa-hand-holding-water text-primary me-3"></i>Aquadan Solution Ltd.</h3>
-                            <p class="mb-3">Aquadan Solution LTD is dedicated to providing high-quality, safe, and
-                                reliable water solutions to communities and businesses. We are committed to health and
-                                sustainability.</p>
+                            <p class="mb-3">Aquadan Solution provides soothing guided meditation audio that helps you
+                                relax, reduce stress, and enhance your well-being.
+
+                            </p>
                         </div>
 
                     </div>
@@ -154,9 +156,7 @@
                         <a href="mailto:info@aquadan.com"><i class="fas fa-envelope me-2"></i> info@aquadan.com</a>
                         <a href="mailto:support@aquadan.com"><i class="fas fa-envelope me-2"></i>
                             support@aquadan.com</a>
-                        <a href="tel:+1 234 567 8900"><i class="fas fa-phone me-2"></i> +1 234 567 8900</a>
-                        <a href="tel:+1 234 567 8901" class="mb-3"><i class="fas fa-print me-2"></i> +1 234 567
-                            8901</a>
+
                     </div>
                 </div>
             </div>
