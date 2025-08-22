@@ -56,6 +56,66 @@ class PageController extends Controller
     ]);
     }
 
+ public function checkout(){
+        $cart = session()->get('cart', []);
+
+
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item['price'] * $item['quantity'];
+    }
+
+    return view('Checkout', [
+        'cart' => $cart,
+        'total' => $total
+    ]);
+
+
+    }
+
+    public function processCheckout(Request $request)
+{
+
+    $cart = session()->get('cart', []);
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item['price'] * $item['quantity'];
+    }
+
+    $orderData = [
+        'order_number' => 'ORD-' . time(),
+        'status' => 'confirmed',
+        'total_amount' => $total,
+        'subtotal' => $total,
+        'shipping_cost' => 0,
+        'tax_amount' => 0,
+        'customer' => [
+            'first_name' => $request->input('firstName'),
+            'last_name' => $request->input('lastName'),
+            'email' => $request->input('email'),
+            'phone' => $request->input('phone'),
+            'address' => $request->input('address'),
+        ],
+
+        'items' => $cart,
+        'created_at' => now()->toDateTimeString(),
+    ];
+
+    session(['latest_order' => $orderData]);
+    session()->forget('cart');
+    return redirect()->route('success');
+}
+
+public function success()
+{
+
+    $order = session('latest_order');
+    if (!$order) {
+        return redirect()->url('/');
+    }
+
+    return view('Success', compact('order'));
+}
 
 
 

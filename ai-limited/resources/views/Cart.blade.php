@@ -93,14 +93,7 @@
                         </div>
                     </div>
 
-                    @if(count($cart) > 0)
-                        <div class="card mb-4">
-                            <div class="card-body">
-                                <p><strong>Expected shipping delivery</strong></p>
-                                <p class="mb-0">{{ now()->addDays(2)->format('m.d.Y') }} - {{ now()->addDays(5)->format('m.d.Y') }}</p>
-                            </div>
-                        </div>
-                    @endif
+
                 </div>
 
                 @if(count($cart) > 0)
@@ -122,9 +115,7 @@
                                 <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
                                     <div>
                                         <strong>Total amount</strong>
-                                        <strong>
-                                            <p class="mb-0">(including VAT)</p>
-                                        </strong>
+
                                     </div>
                                     <span><strong>${{ number_format($total, 2) }}</strong></span>
                                 </li>
@@ -136,15 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="card mb-4 mb-lg-0">
-                        <div class="card-body">
-                            <p><strong>We accept</strong></p>
-                            <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg" alt="Visa" />
-                            <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg" alt="American Express" />
-                            <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg" alt="Mastercard" />
-                            <img class="me-2" width="45px" src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.webp" alt="PayPal" />
-                        </div>
-                    </div>
+
                 </div>
                 @endif
             </div>
