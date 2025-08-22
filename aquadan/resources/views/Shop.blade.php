@@ -25,10 +25,10 @@
             <!-- Product 2 -->
             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="product-item">
-                    <img src="{{ asset('img/shopping-eco-mat.webp') }}" class="img-fluid product-image rounded-top" alt="Eco-Friendly Yoga Mat">
+                    <img src="{{ asset('img/Deep-Sleep-Bundle-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Eco-Friendly Yoga Mat">
                     <div class="product-content bg-light text-center rounded-bottom p-4">
-                        <p>Eco-Friendly, Non-Slip</p>
-                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Eco Yoga & Meditation Mat</a>
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Deep Sleep Bundle</a>
                         <div class="d-flex justify-content-center mb-3">
                             <div class="text-warning">
                                 <i class="fas fa-star"></i>
@@ -39,11 +39,11 @@
                                 <span class="ms-1">(96)</span>
                             </div>
                         </div>
-                        <p class="fs-4 text-primary mb-3">$49.99</p>
+                        <p class="fs-4 text-primary mb-3">$100.00</p>
                         <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
-                                data-name="Eco Yoga & Meditation Mat" data-price="49.99"
-                                data-image="{{ asset('img/shopping-eco-mat.webp') }}"
-                                data-description="Sustainable, non-slip yoga mat perfect for meditation or yoga practice.">
+                                data-name="Deep Sleep Bundle" data-price="100.00"
+                                data-image="{{ asset('img/Deep-Sleep-Bundle-600x600.webp') }}"
+                                data-description="A selection of 20 soothing meditations specifically crafted to help you fall asleep faster and wake up refreshed. Includes bonus nature soundtracks for peaceful nights.">
                             <i class="fas fa-cart-plus me-2"></i>Add to Cart
                         </button>
                     </div>
@@ -53,11 +53,11 @@
             <!-- Product 3 -->
             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="product-item">
-                    <img src="{{ asset('img/shopping-bowl.webp') }}" class="img-fluid product-image rounded-top" alt="Meditation Bell">
+                    <img src="{{ asset('img/Emotional-Balance-Program-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Meditation Bell">
                     <div class="product-content bg-light text-center rounded-bottom p-4">
-                        <span class="badge bg-info mb-2">New</span>
-                        <p>Handcrafted Bronze</p>
-                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Tibetan Singing Bowl Set</a>
+                        <span class="badge bg-info ">New</span>
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Emotional Balance Program</a>
                         <div class="d-flex justify-content-center mb-3">
                             <div class="text-warning">
                                 <i class="fas fa-star"></i>
@@ -68,11 +68,11 @@
                                 <span class="ms-1">(204)</span>
                             </div>
                         </div>
-                        <p class="fs-4 text-primary mb-3">$39.99</p>
+                        <p class="fs-4 text-primary mb-3">$200.00</p>
                         <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
-                                data-name="Tibetan Singing Bowl Set" data-price="39.99"
-                                data-image="{{ asset('img/shopping-bowl.webp') }}"
-                                data-description="Authentic Tibetan singing bowl set with mallet and cushion for meditation practice.">
+                                data-name="Emotional Balance Program" data-price="200.00"
+                                data-image="{{ asset('img/Emotional-Balance-Program-600x600.webp') }}"
+                                data-description="A 4-week program of 25 guided sessions aimed at fostering emotional well-being, gratitude, and resilience. Combines mindfulness techniques with guided affirmations.">
                             <i class="fas fa-cart-plus me-2"></i>Add to Cart
                         </button>
                     </div>
@@ -82,10 +82,10 @@
             <!-- Product 4 -->
             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
                 <div class="product-item">
-                    <img src="{{ asset('img/shopping-incense-set.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
+                    <img src="{{ asset('img/Focus-Flow-Series-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
                     <div class="product-content bg-light text-center rounded-bottom p-4">
-                        <p>Natural Ingredients, Relaxing Scents</p>
-                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Meditation Incense Set</a>
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Focus Flow Series</a>
                         <div class="d-flex justify-content-center mb-3">
                             <div class="text-warning">
                                 <i class="fas fa-star"></i>
@@ -96,11 +96,92 @@
                                 <span class="ms-1">(187)</span>
                             </div>
                         </div>
-                        <p class="fs-4 text-primary mb-3">$24.99</p>
+                        <p class="fs-4 text-primary mb-3">$75.00</p>
                         <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
-                                data-name="Meditation Incense Set" data-price="24.99"
-                                data-image="{{ asset('img/shopping-incense-set.webp') }}"
-                                data-description="Set of natural incense sticks with various relaxing scents for meditation.">
+                                data-name="Focus Flow Series" data-price="75.00"
+                                data-image="{{ asset('img/Focus-Flow-Series-600x600.webp') }}"
+                                data-description="This package includes 15 guided meditations to enhance productivity and concentration. Ideal for students, professionals, or anyone looking to improve their focus and clarity.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="product-item">
+                    <img src="{{ asset('img/Mindful-Movement-Audio-Set-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Mindful Movement Audio Set</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ms-1">(187)</span>
+                            </div>
+                        </div>
+                        <p class="fs-4 text-primary mb-3">$110.00</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Mindful Movement Audio Set" data-price="110.00"
+                                data-image="{{ asset('img/Mindful-Movement-Audio-Set-600x600.webp') }}"
+                                data-description="Enhance your yoga, walking, or stretching routines with 18 guided movement meditations. Each session integrates mindfulness techniques to align your body and mind seamlessly.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="product-item">
+                    <img src="{{ asset('img/Kids-Calm-Collection-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Kids’ Calm Collection</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ms-1">(187)</span>
+                            </div>
+                        </div>
+                        <p class="fs-4 text-primary mb-3">$1.00</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Kids’ Calm Collection" data-price="1.00"
+                                data-image="{{ asset('img/Kids-Calm-Collection-600x600.webp') }}"
+                                data-description="A delightful bundle of 15 child-friendly meditations designed to nurture calmness, emotional regulation, and focus in kids aged 5-12. Includes bedtime stories with mindfulness exercises for peaceful sleep.">
+                            <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="product-item">
+                    <img src="{{ asset('img/Morning-Mindfulness-Pack-600x600.webp') }}" class="img-fluid product-image rounded-top" alt="Incense Sticks">
+                    <div class="product-content bg-light text-center rounded-bottom p-4">
+                        <p>uncategorized</p>
+                        <a href="#" class="h4 d-inline-block mb-3 text-decoration-none text-dark">Morning Mindfulness Pack</a>
+                        <div class="d-flex justify-content-center mb-3">
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span class="ms-1">(187)</span>
+                            </div>
+                        </div>
+                        <p class="fs-4 text-primary mb-3">$60.00</p>
+                        <button class="btn btn-secondary rounded-pill py-2 px-4 add-to-cart"
+                                data-name="Morning Mindfulness Pack" data-price="60.00"
+                                data-image="{{ asset('img/Morning-Mindfulness-Pack-600x600.webp') }}"
+                                data-description="Energize your mornings with 12 short, uplifting guided meditations. Designed to cultivate positivity, clarity, and motivation, these sessions are perfect for starting each day with a fresh mindset.">
                             <i class="fas fa-cart-plus me-2"></i>Add to Cart
                         </button>
                     </div>
